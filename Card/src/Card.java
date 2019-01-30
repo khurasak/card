@@ -13,26 +13,6 @@ public class Card {
     private String suit;
     //Hearts,Spades,Diamonds,Clubs
 
-    private String first;
-
-    /**
-     * Get the value of first
-     *
-     * @return the value of first
-     */
-    public String getFirst() {
-        return first;
-    }
-
-    /**
-     * Set the value of first
-     *
-     * @param first new value of first
-     */
-    public void setFirst(String first) {
-        this.first = first;
-    }
-
         private int value;
         
         public Card(String givenSuit,int givenValue)
@@ -67,10 +47,8 @@ public class Card {
         else
         {
             this.value = value;
-             System.out.println("hellow");
         }
     }
-    
     
 
     
